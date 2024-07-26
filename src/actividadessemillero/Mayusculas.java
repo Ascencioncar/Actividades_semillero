@@ -5,7 +5,7 @@ public class Mayusculas {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Digita una frase y este programa detectará si tiene mayúsculas:");
-        String texto = input.nextLine(); // Cambié next() a nextLine() para leer toda la frase
+        String texto = input.nextLine();
         input.close();
 
         boolean tieneMayuscula = false;
