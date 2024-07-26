@@ -14,6 +14,7 @@ public class Arreglanotas {
             float numero = input.nextFloat();
             suma += numero/notas;
         }
+        input.close();
         if (suma>=3.0){boolean nota =true; System.out.println("Las notas sumadas: " + suma + " Ganaste!" + nota);}
         else{boolean nota =false; System.out.println("Perdiste geometría " + nota); }
 }

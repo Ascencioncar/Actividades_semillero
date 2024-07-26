@@ -14,6 +14,7 @@ public class ActividadesSemillero {
             int numero = input.nextInt();
             suma += numero/cantidadNumeros;
         }
+        input.close();
         System.out.println("el promedio de los números ingresados es: " + suma);
 
     }
