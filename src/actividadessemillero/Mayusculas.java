@@ -15,7 +15,7 @@ public class Mayusculas {
                 break;
             }
         }
-
+        
         if (tieneMayuscula) {
             System.out.println("La frase contiene mayúsculas.");
         } else {

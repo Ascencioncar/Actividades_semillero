@@ -1,6 +1,4 @@
-
 package actividadessemillero;
-
 
 import java.util.Scanner;
 

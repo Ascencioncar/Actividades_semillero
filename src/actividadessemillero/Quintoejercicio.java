@@ -17,20 +17,19 @@ public class Quintoejercicio {
     }
 
     public static boolean verificarCadena(String cadena) {
+        boolean tieneNumero = false;
+        boolean tieneLetra = false;
+        
         if (cadena.length() < 8) {
             return false;
         }
-
-        boolean tieneNumero = false;
-        boolean tieneLetra = false;
-
+        else {
         for (char c : cadena.toCharArray()) {
             if (Character.isDigit(c)) {
                 tieneNumero = true;
             } else if (Character.isLetter(c)) {
                 tieneLetra = true;
             }
-
             if (tieneNumero && tieneLetra) {
                 return true;
             }
@@ -39,4 +38,4 @@ public class Quintoejercicio {
         return false;
     }
 }
-
+}
