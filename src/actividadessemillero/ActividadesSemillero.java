@@ -12,10 +12,12 @@ public class ActividadesSemillero {
         for (int i = 0; i < cantidadNumeros; i++) {
             System.out.print("Ingresa el número " + (i + 1) + ": ");
             int numero = input.nextInt();
-            suma += numero/cantidadNumeros;
+            suma+= numero;
         }
+        
+        float promedio = suma/cantidadNumeros;
         input.close();
-        System.out.println("el promedio de los números ingresados es: " + suma);
+        System.out.println("el promedio de los números ingresados es: " + promedio);
 
     }
 }
